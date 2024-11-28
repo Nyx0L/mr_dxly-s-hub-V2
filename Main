@@ -85,3 +85,10 @@ local Button = MiscTab:CreateButton({
    local discord = ("https://discord.gg/EvPHWvPCvj")
    end,
 })
+
+local Button = MiscTab:CreateButton({
+    Name = "Aimbot",
+    Callback = function()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nyx0L/Spy-Aim/refs/heads/main/thing%20for%20GUI')))()
+    end    
+})
