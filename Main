@@ -92,3 +92,17 @@ local Button = MiscTab:CreateButton({
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nyx0L/Spy-Aim/refs/heads/main/thing%20for%20GUI')))()
     end    
 })
+
+local Button = MiscTab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end    
+})
+
+local Button = MiscTab:CreateButton({
+    Name = "Print hello world",
+    Callback = function()
+            print "(hello world)"
+    end    
+})
